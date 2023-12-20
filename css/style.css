@@ -70,7 +70,7 @@ ul {
 }
 .aside .logo a span {
     font-family: 'Clicker Script', cursive;
-    font-family: 40x;
+    font-size: 40x;
 }
 .aside .logo a:before {
     content: '';
@@ -110,7 +110,6 @@ ul {
     margin-bottom: 20px;
     display: block;
 }
-
 .aside .nav li a {
     font-size: 16px;
     font-weight: 600;
@@ -121,6 +120,9 @@ ul {
 }
 .aside .nav li a.active {
     color: var(--skin-color);
+}
+.aside .nav li a i {
+    margin-right: 15px;
 }
 .aside .nav li a i {
     margin-right: 15px;
